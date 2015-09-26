@@ -15,6 +15,7 @@ public class SlideshowVideo : MonoBehaviour
 
 			if(AutoPlay && gameObject.activeSelf)
 			{
+				Stop();
 				Play ();
 			}
 		}
@@ -26,6 +27,7 @@ public class SlideshowVideo : MonoBehaviour
 
 		if(AutoPlay)
 		{
+			Stop();
 			Play ();
 		}
 	}
