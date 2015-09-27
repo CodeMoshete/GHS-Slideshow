@@ -16,6 +16,7 @@ public class RevealStepFadeInUI : RevealStepBase
 	{
 		base.Start ();
 		canvas = gameObject.GetComponent<CanvasGroup> ();
+		canvas.alpha = 0f;
 	}
 
 	public override void Reveal ()
