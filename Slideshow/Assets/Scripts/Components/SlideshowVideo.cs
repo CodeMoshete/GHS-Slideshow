@@ -21,6 +21,11 @@ public class SlideshowVideo : MonoBehaviour
 		}
 	}
 
+	public void OnDisable()
+	{
+		Stop();
+	}
+
 	public void Awake()
 	{
 		movie = (MovieTexture)GetComponent<RawImage>().texture;
