@@ -5,6 +5,8 @@ using UnityEngine;
 public class RevealStepFadeInUI : RevealStepBase
 {
 	public float FadeDuration = 0.5f;
+	public bool FadeIn = true;
+	public bool FadeOut = false;
 	private float currentFadeTime;
 	private CanvasGroup canvas;
 
@@ -16,24 +18,49 @@ public class RevealStepFadeInUI : RevealStepBase
 	{
 		base.Start ();
 		canvas = gameObject.GetComponent<CanvasGroup> ();
-		canvas.alpha = 0f;
+		if(FadeIn)
+		{
+			canvas.alpha = 0f;
+		}
 	}
 
 	public override void Reveal ()
 	{
 		base.Reveal ();
-		revealing = true;
-		gameObject.SetActive (true);
+
+		if(FadeIn && (!gameObject.activeSelf || canvas.alpha < 1f))
+		{
+			gameObject.SetActive (true);
+			revealing = true;
+			hiding = false;
+			currentFadeTime = 0f;
+		}
+		else if(FadeOut && (gameObject.activeSelf || canvas.alpha < 0f))
+		{
+			revealing = false;
+			hiding = true;
+			currentFadeTime = 0f;
+		}
 	}
 
 	public override void Reset()
 	{
 		base.Reset();
-		if(canvas != null)
-			canvas.alpha = 0f;
+		if(FadeIn)
+		{
+			if(canvas != null)
+				canvas.alpha = 0f;
+			gameObject.SetActive (false);
+		}
+		else
+		{
+			if(canvas != null)
+				canvas.alpha = 1f;
+			gameObject.SetActive (true);
+		}
 
 		currentFadeTime = 0f;
-		gameObject.SetActive (false);
+
 	}
 
 	public override void Update ()
@@ -43,6 +70,17 @@ public class RevealStepFadeInUI : RevealStepBase
 		{
 			currentFadeTime += Time.deltaTime;
 			float pct = currentFadeTime / FadeDuration;
+			canvas.alpha = Mathf.Min(pct, 1f);
+			if(pct >= 1f)
+			{
+				pct = 1f;
+				revealed = true;
+			}
+		}
+		else if(hiding)
+		{
+			currentFadeTime += Time.deltaTime;
+			float pct = 1 - (currentFadeTime / FadeDuration);
 			canvas.alpha = Mathf.Min(pct, 1f);
 			if(pct >= 1f)
 			{

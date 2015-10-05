@@ -5,6 +5,7 @@ public class RevealStepBase : MonoBehaviour, IRevealStep
 {
 	protected bool revealed = false;
 	protected bool revealing = false;
+	protected bool hiding = false;
 
 	public RevealStepBase ()
 	{

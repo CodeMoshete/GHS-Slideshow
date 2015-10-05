@@ -2,6 +2,8 @@
 
 public class BaseSlide : MonoBehaviour, ISlide
 {
+	public bool EnableBackground = true;
+
 	protected DefaultDelegate onComplete;
 	protected DefaultDelegate onBack;
 

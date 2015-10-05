@@ -19,6 +19,7 @@ public class SlideshowManager : MonoBehaviour {
 
 	public List<GameObject> Slides;
 
+	public GameObject background;
 	public GameObject transitionScreen;
 	private CanvasGroup transitionCanvas;
 
@@ -123,6 +124,8 @@ public class SlideshowManager : MonoBehaviour {
 			currentSlideScript = currentSlide.GetComponent<BaseSlide>();
 			currentSlideScript.Initialize(TransitionForwards, TransitionBackwards);
 			currentSlide.SetActive(true);
+
+			background.SetActive(currentSlideScript.EnableBackground);
 		}
 	}
 }
