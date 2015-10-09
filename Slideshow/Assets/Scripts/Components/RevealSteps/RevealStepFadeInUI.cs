@@ -82,10 +82,11 @@ public class RevealStepFadeInUI : RevealStepBase
 			currentFadeTime += Time.deltaTime;
 			float pct = 1 - (currentFadeTime / FadeDuration);
 			canvas.alpha = Mathf.Min(pct, 1f);
-			if(pct >= 1f)
+			if(pct <= 0f)
 			{
-				pct = 1f;
-				revealed = true;
+				pct = 0f;
+				revealed = false;
+				canvas.gameObject.SetActive(false);
 			}
 		}
 	}
