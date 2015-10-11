@@ -11,7 +11,8 @@ public class SlideshowVideo : MonoBehaviour
 	{
 		if(gameObject.activeSelf)
 		{
-			movie = (MovieTexture)GetComponent<RawImage>().texture;
+			RawImage img = GetComponent<RawImage>();
+			movie = (MovieTexture)img.texture;
 
 			if(AutoPlay && gameObject.activeSelf)
 			{
