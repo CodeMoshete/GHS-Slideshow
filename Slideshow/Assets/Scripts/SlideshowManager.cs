@@ -21,6 +21,7 @@ public class SlideshowManager : MonoBehaviour {
 
 	public GameObject background;
 	public GameObject transitionScreen;
+	public int StartingSlideNumber = 1;
 	private CanvasGroup transitionCanvas;
 
 	private GameObject currentSlide;
@@ -32,7 +33,7 @@ public class SlideshowManager : MonoBehaviour {
 	
 	private void Start () 
 	{
-		currentSlideIndex = 0;
+		currentSlideIndex = StartingSlideNumber - 1;
 		transitionCanvas = transitionScreen.GetComponent<CanvasGroup> ();
 		TransitionForwards ();
 	}
