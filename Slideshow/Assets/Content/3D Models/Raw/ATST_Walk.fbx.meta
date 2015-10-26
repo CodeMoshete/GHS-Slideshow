@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 9edb13a4211d24df5b53e59fb0214416
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ATSTbodyMesh
+    100004: ATSThatchMesh
+    100006: ATSTmidgunMesh
+    100008: ATSTsidegunMesh
+    100010: bnd_Body
+    100012: bnd_cog
+    100014: bnd_Hatch
+    100016: bnd_Lt_Foot_01
+    100018: bnd_Lt_Gun
+    100020: bnd_Lt_Hip_01
+    100022: bnd_Lt_Hip_02
+    100024: bnd_Lt_Leg_01
+    100026: bnd_Lt_Leg_02
+    100028: bnd_Lt_Leg_03
+    100030: bnd_Mid_Gun1
+    100032: bnd_Mid_Lt_Gun2
+    100034: bnd_Mid_Rt_Gun2
+    100036: bnd_Neck
+    100038: bnd_Rt_Foot_01
+    100040: bnd_Rt_Gun1
+    100042: bnd_Rt_Gun2
+    100044: bnd_Rt_Hip_01
+    100046: bnd_Rt_Hip_02
+    100048: bnd_Rt_Leg_01
+    100050: bnd_Rt_Leg_02
+    100052: bnd_Rt_Leg_03
+    100054: center_of_mass
+    100056: locator_Lt_gun
+    100058: locator_Mid_gun1
+    100060: locator_Mid_gun2
+    100062: locator_Rt_gun
+    100064: MASTER_MOVER
+    400000: //RootNode
+    400002: ATSTbodyMesh
+    400004: ATSThatchMesh
+    400006: ATSTmidgunMesh
+    400008: ATSTsidegunMesh
+    400010: bnd_Body
+    400012: bnd_cog
+    400014: bnd_Hatch
+    400016: bnd_Lt_Foot_01
+    400018: bnd_Lt_Gun
+    400020: bnd_Lt_Hip_01
+    400022: bnd_Lt_Hip_02
+    400024: bnd_Lt_Leg_01
+    400026: bnd_Lt_Leg_02
+    400028: bnd_Lt_Leg_03
+    400030: bnd_Mid_Gun1
+    400032: bnd_Mid_Lt_Gun2
+    400034: bnd_Mid_Rt_Gun2
+    400036: bnd_Neck
+    400038: bnd_Rt_Foot_01
+    400040: bnd_Rt_Gun1
+    400042: bnd_Rt_Gun2
+    400044: bnd_Rt_Hip_01
+    400046: bnd_Rt_Hip_02
+    400048: bnd_Rt_Leg_01
+    400050: bnd_Rt_Leg_02
+    400052: bnd_Rt_Leg_03
+    400054: center_of_mass
+    400056: locator_Lt_gun
+    400058: locator_Mid_gun1
+    400060: locator_Mid_gun2
+    400062: locator_Rt_gun
+    400064: MASTER_MOVER
+    4300000: ATSTbodyMesh
+    4300002: ATSTmidgunMesh
+    4300004: ATSTsidegunMesh
+    4300006: ATSThatchMesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: ATSTbodyMesh
+    13700002: ATSThatchMesh
+    13700004: ATSTmidgunMesh
+    13700006: ATSTsidegunMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
