@@ -28,6 +28,10 @@ public class DefaultSlide : BaseSlide
 			for(int i = 0, count = RevealStepObjects.Count; i < count; i++)
 			{
 				RevealStepBase component = RevealStepObjects[i].GetComponent<RevealStepBase>();
+				if(component == null)
+				{
+					Debug.Log(RevealStepObjects[i].gameObject.name + " has missing revealstep");
+				}
 				component.Reset();
 				RevealSteps.Add(component);
 			}
