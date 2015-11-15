@@ -30,7 +30,7 @@ public class DefaultSlide : BaseSlide
 				RevealStepBase component = RevealStepObjects[i].GetComponent<RevealStepBase>();
 				if(component == null)
 				{
-					Debug.Log(RevealStepObjects[i].gameObject.name + " has missing revealstep");
+					Debug.Log(RevealStepObjects[i].gameObject.name + " has missing revealstep in slide " + gameObject.name);
 				}
 				component.Reset();
 				RevealSteps.Add(component);
