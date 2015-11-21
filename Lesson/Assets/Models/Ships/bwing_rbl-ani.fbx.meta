@@ -1,0 +1,109 @@
+fileFormatVersion: 2
+guid: ae6fff722512c0b489c0d86f7801bdff
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bwing_rbl_rig_bnd_cockpit
+    100004: bwing_rbl_rig_bnd_cog
+    100006: bwing_rbl_rig_bnd_Lt_wing
+    100008: bwing_rbl_rig_bnd_rotation
+    100010: bwing_rbl_rig_bnd_Rt_wing
+    100012: bwing_rbl_rig_bodyMesh
+    100014: bwing_rbl_rig_center_of_mass
+    100016: bwing_rbl_rig_headMesh
+    100018: bwing_rbl_rig_locator_gun1
+    100020: bwing_rbl_rig_locator_gun2
+    100022: bwing_rbl_rig_locator_gun3
+    100024: bwing_rbl_rig_wimgLMesh
+    100026: bwing_rbl_rig_wimgRMesh
+    400000: //RootNode
+    400002: bwing_rbl_rig_bnd_cockpit
+    400004: bwing_rbl_rig_bnd_cog
+    400006: bwing_rbl_rig_bnd_Lt_wing
+    400008: bwing_rbl_rig_bnd_rotation
+    400010: bwing_rbl_rig_bnd_Rt_wing
+    400012: bwing_rbl_rig_bodyMesh
+    400014: bwing_rbl_rig_center_of_mass
+    400016: bwing_rbl_rig_headMesh
+    400018: bwing_rbl_rig_locator_gun1
+    400020: bwing_rbl_rig_locator_gun2
+    400022: bwing_rbl_rig_locator_gun3
+    400024: bwing_rbl_rig_wimgLMesh
+    400026: bwing_rbl_rig_wimgRMesh
+    2300000: bwing_rbl_rig_bodyMesh
+    2300002: bwing_rbl_rig_headMesh
+    2300004: bwing_rbl_rig_wimgLMesh
+    2300006: bwing_rbl_rig_wimgRMesh
+    3300000: bwing_rbl_rig_bodyMesh
+    3300002: bwing_rbl_rig_headMesh
+    3300004: bwing_rbl_rig_wimgLMesh
+    3300006: bwing_rbl_rig_wimgRMesh
+    4300000: bwing_rbl_rig_wimgLMesh
+    4300002: bwing_rbl_rig_wimgRMesh
+    4300004: bwing_rbl_rig_headMesh
+    4300006: bwing_rbl_rig_bodyMesh
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

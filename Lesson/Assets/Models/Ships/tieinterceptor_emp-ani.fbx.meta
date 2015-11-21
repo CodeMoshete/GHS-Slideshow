@@ -1,0 +1,84 @@
+fileFormatVersion: 2
+guid: 43440c9c9aa900140a458aaca5260ef2
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: tieinterceptor_emp_rig_bnd_cog
+    100004: tieinterceptor_emp_rig_bnd_rotation
+    100006: tieinterceptor_emp_rig_center_of_mass
+    100008: tieinterceptor_emp_rig_locator_gun
+    100010: tieinterceptor_emp_rig_tieInterceptorMesh
+    400000: //RootNode
+    400002: tieinterceptor_emp_rig_bnd_cog
+    400004: tieinterceptor_emp_rig_bnd_rotation
+    400006: tieinterceptor_emp_rig_center_of_mass
+    400008: tieinterceptor_emp_rig_locator_gun
+    400010: tieinterceptor_emp_rig_tieInterceptorMesh
+    2300000: tieinterceptor_emp_rig_tieInterceptorMesh
+    3300000: tieinterceptor_emp_rig_tieInterceptorMesh
+    4300000: tieinterceptor_emp_rig_tieInterceptorMesh
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
